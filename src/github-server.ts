@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 // Create the GitHub research agent instance
 const githubAgent = createGitHubAgent({
   speakerUri: 'tag:openfloor-research.com,2025:github-agent',
-  serviceUrl: process.env.SERVICE_URL || 'http://localhost:8080',
+  serviceUrl: process.env.SERVICE_URL || 'https://p23fimjxfm.us-east-1.awsapprunner.com/',
   name: 'GitHub Technology Analyst',
   organization: 'OpenFloor Demo Corp'
 });
